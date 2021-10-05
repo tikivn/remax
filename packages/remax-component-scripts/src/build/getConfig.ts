@@ -4,7 +4,7 @@ import { IArgv } from './types';
 import WebpackConfig from 'webpack-chain';
 import { RuleConfig } from '@remax/cli/lib/build/webpack/config/css';
 
-export type IBuildType = 'esm' | 'ali' | 'wechat';
+export type IBuildType = 'esm' | 'ali' | 'wechat' | 'tiniapp';
 
 export interface IOptions {
   type: IBuildType;

@@ -68,7 +68,7 @@ export default class MiniBuilder extends BaseBuilder {
       }
 
       // 适配阿里小程序 IDE
-      if (this.options.target === 'ali') {
+      if (this.options.target === 'ali' || this.options.target === 'tiniapp') {
         output.message('Watching for changes...', 'green', this.options.notify);
       }
     });

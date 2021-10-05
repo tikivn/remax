@@ -186,7 +186,7 @@ export default class VNode {
 
       let path = [...this.parent!.path, 'nodes', this.id.toString(), 'props'];
 
-      if (RuntimeOptions.get('platform') === 'ali') {
+      if (RuntimeOptions.get('platform') === 'ali' || RuntimeOptions.get('platform') === 'tiniapp') {
         path = [...this.parent!.path, `children[${this.index}].props`];
       }
 
@@ -237,7 +237,7 @@ export default class VNode {
     for (let i = 0; i < parents.length; i++) {
       const child = parents[i + 1] || this;
 
-      if (RuntimeOptions.get('platform') === 'ali') {
+      if (RuntimeOptions.get('platform') === 'ali' || RuntimeOptions.get('platform') === 'tiniapp') {
         dataPath.push('children');
         dataPath.push(child.index.toString());
       } else {
@@ -279,13 +279,13 @@ export default class VNode {
         const currentVNode = children[i];
         const currentRawNode = toRawNode(currentVNode);
 
-        if (RuntimeOptions.get('platform') !== 'ali') {
+        if (RuntimeOptions.get('platform') !== 'ali' || RuntimeOptions.get('platform') === 'tiniapp') {
           currentNode.children!.unshift(currentRawNode.id);
         } else {
           currentNode.children!.unshift(currentRawNode);
         }
 
-        if (RuntimeOptions.get('platform') !== 'ali') {
+        if (RuntimeOptions.get('platform') !== 'ali' || RuntimeOptions.get('platform') === 'tiniapp') {
           if (!currentNode.nodes) {
             currentNode.nodes = {};
           }

@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@remax/ali": "2.15.6",
+    "@remax/tiniapp": "2.15.6",
     "@remax/framework-shared": "2.15.6",
     "@remax/runtime": "2.15.6",
     "@remax/toutiao": "2.15.6",

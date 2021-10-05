@@ -22,7 +22,7 @@ export function buildComponent(cwd: string, options: IOptions) {
       onTargetDir,
       esmOptions: esm,
     });
-  } else if (type === 'ali' || type === 'wechat') {
+  } else if (type === 'ali' || type === 'wechat' || type === 'tiniapp') {
     return buildDsl({
       cwd,
       sourceDir,
