@@ -7,6 +7,7 @@ module.exports = () => ({
     let globalName;
     switch (process.env.REMAX_PLATFORM) {
       case 'ali':
+      case 'tiniapp':
         globalName = 'my';
         break;
       case 'toutiao':

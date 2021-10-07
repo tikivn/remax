@@ -44,6 +44,9 @@
       "path": "./packages/remax-web"
     },
     {
+      "path": "./packages/remax-tiniapp"
+    },
+    {
       "path": "./packages/remax-one"
     },
     {

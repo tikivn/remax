@@ -9,6 +9,7 @@
     "packages/postcss-remax-tag",
     "packages/remax",
     "packages/remax-ali",
+    "packages/remax-tiniapp",
     "packages/remax-build-store",
     "packages/remax-cli",
     "packages/remax-framework-shared",
