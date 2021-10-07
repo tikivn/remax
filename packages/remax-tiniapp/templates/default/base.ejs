@@ -1,5 +1,5 @@
 <template name="REMAX_TPL">
-  <block tiki:for="{{root.children}}" tiki:key="{{item.id}}">
+  <block tiki:for="{{root.children}}" tiki:key="{{item.id}}" key="{{item.id}}">
     <template is="REMAX_TPL_1_CONTAINER" data="{{item: item}}" />
   </block>
 </template>

@@ -279,13 +279,13 @@ export default class VNode {
         const currentVNode = children[i];
         const currentRawNode = toRawNode(currentVNode);
 
-        if (RuntimeOptions.get('platform') !== 'ali' || RuntimeOptions.get('platform') === 'tiniapp') {
+        if (RuntimeOptions.get('platform') !== 'ali' && RuntimeOptions.get('platform') !== 'tiniapp') {
           currentNode.children!.unshift(currentRawNode.id);
         } else {
           currentNode.children!.unshift(currentRawNode);
         }
 
-        if (RuntimeOptions.get('platform') !== 'ali' || RuntimeOptions.get('platform') === 'tiniapp') {
+        if (RuntimeOptions.get('platform') !== 'ali' && RuntimeOptions.get('platform') !== 'tiniapp') {
           if (!currentNode.nodes) {
             currentNode.nodes = {};
           }
