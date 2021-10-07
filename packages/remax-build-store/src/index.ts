@@ -1,7 +1,7 @@
 import * as crypto from 'crypto';
 import { kebabCase } from 'lodash';
-import type { ComponentManifest, HostComponent } from '@remax/types';
-import { slash } from '@remax/shared';
+import type { ComponentManifest, HostComponent } from '@tiki.vn/remax-types';
+import { slash } from '@tiki.vn/remax-shared';
 
 export interface ExtractedTemplate {
   template: string;

@@ -1,4 +1,4 @@
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
 
 interface NavigateToParams {
   url: string;

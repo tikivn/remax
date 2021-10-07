@@ -1,5 +1,5 @@
 import * as babel from '@babel/core';
-import Store from '@remax/build-store';
+import Store from '@tiki.vn/remax-build-store';
 import preprocess from '../src/preprocess';
 import extractTemplate from '../src/extractTemplate';
 

@@ -1,7 +1,7 @@
 import propsAlias, { propAlias } from './propsAlias';
 import { TYPE_TEXT } from './constants';
 import Container from './Container';
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
 
 export interface RawNode {
   id: number;

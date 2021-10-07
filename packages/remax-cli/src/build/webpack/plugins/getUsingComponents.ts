@@ -1,9 +1,9 @@
 import * as path from 'path';
 import { compilation } from 'webpack';
-import type { Options } from '@remax/types';
-import Store from '@remax/build-store';
+import type { Options } from '@tiki.vn/remax-types';
+import Store from '@tiki.vn/remax-build-store';
 import { getNativeAssetOutputPath } from '../../utils/paths';
-import { slash } from '@remax/shared';
+import { slash } from '@tiki.vn/remax-shared';
 
 interface Module {
   dependencies: any[];

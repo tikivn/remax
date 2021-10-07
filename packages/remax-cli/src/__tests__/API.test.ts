@@ -1,5 +1,5 @@
 import API from '../API';
-import type { Plugin } from '@remax/types';
+import type { Plugin } from '@tiki.vn/remax-types';
 
 function entries(): Plugin {
   return {};
@@ -35,7 +35,7 @@ describe('api', () => {
 
   it('install adapter plugin', () => {
     expect(api.adapter.target).toEqual('ali');
-    expect(api.adapter.packageName).toEqual('@remax/ali');
+    expect(api.adapter.packageName).toEqual('@tiki.vn/remax-ali');
   });
 
   it('processProps', () => {

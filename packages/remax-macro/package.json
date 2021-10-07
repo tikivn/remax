@@ -34,7 +34,7 @@
     "react": "^16.12.0"
   },
   "dependencies": {
-    "@remax/shared": "2.15.6"
+    "@tiki.vn/remax-shared": "2.15.6"
   },
   "publishConfig": {
     "access": "public"

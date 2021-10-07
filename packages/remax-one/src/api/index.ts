@@ -1,1 +1,1 @@
-export { navigateTo, navigateBack, redirectTo, reLaunch, switchTab } from '@remax/web';
+export { navigateTo, navigateBack, redirectTo, reLaunch, switchTab } from '@tiki.vn/remax-web';

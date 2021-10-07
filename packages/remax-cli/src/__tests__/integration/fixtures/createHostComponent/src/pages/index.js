@@ -1,6 +1,6 @@
 import * as React from 'react';
 import CustomComponent from 'custom-component';
-import { createHostComponent } from '@remax/macro';
+import { createHostComponent } from '@tiki.vn/remax-macro';
 
 const FooBar = createHostComponent('foo-bar', ['foo', ['class', 'className']]);
 

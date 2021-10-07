@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki.vn/remax-runtime';
 import { BaseProps, GenericEvent } from '../../types/component';
 
 // can't extends from BaseProps, bacause this MovableViewProps overwrite animation to boolean

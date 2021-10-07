@@ -1,9 +1,9 @@
 import * as t from '@babel/types';
 import type { NodePath } from '@babel/traverse';
-import Store from '@remax/build-store';
+import Store from '@tiki.vn/remax-build-store';
 import insertImportDeclaration from './utils/insertImportDeclaration';
 
-const PACKAGE_NAME = '@remax/runtime';
+const PACKAGE_NAME = '@tiki.vn/remax-runtime';
 const FUNCTION_NAME = 'createHostComponent';
 
 function getConfig(callExpression: NodePath<t.CallExpression>) {

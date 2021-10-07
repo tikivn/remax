@@ -1,4 +1,4 @@
-import { promisify } from '@remax/framework-shared';
+import { promisify } from '@tiki.vn/remax-framework-shared';
 
 export const addCardAuth = promisify(my.addCardAuth);
 export const addPhoneContact = promisify(my.addPhoneContact);

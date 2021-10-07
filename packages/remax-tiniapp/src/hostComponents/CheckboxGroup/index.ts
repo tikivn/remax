@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki.vn/remax-runtime';
 
 export interface CheckboxGroupProps {
   readonly dataset?: DOMStringMap;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Fragment } from 'react';
 import { View, View as CustomView, Text } from 'remax';
-import { createHostComponent } from '@remax/macro';
+import { createHostComponent } from '@tiki.vn/remax-macro';
 import * as remax from 'remax';
 import NativeComponent from '@/components/nativeComponent';
 

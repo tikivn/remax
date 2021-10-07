@@ -2,7 +2,7 @@ import _ from 'lodash';
 import * as path from 'path';
 import { IArgv } from './types';
 import WebpackConfig from 'webpack-chain';
-import { RuleConfig } from '@remax/cli/lib/build/webpack/config/css';
+import { RuleConfig } from '@tiki.vn/remax-cli/lib/build/webpack/config/css';
 
 export type IBuildType = 'esm' | 'ali' | 'wechat' | 'tiniapp';
 

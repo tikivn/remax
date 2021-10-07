@@ -1,7 +1,7 @@
 import * as babel from '@babel/core';
-import hostComponents from '@remax/ali/cjs/hostComponents/node';
-import Store from '@remax/build-store';
-import { slash } from '@remax/shared';
+import hostComponents from '@tiki.vn/remax-ali/cjs/hostComponents/node';
+import Store from '@tiki.vn/remax-build-store';
+import { slash } from '@tiki.vn/remax-shared';
 import component from '../src';
 
 const currentFilename = slash(__filename);

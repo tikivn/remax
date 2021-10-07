@@ -1,4 +1,4 @@
-import type { Options } from '@remax/types';
+import type { Options } from '@tiki.vn/remax-types';
 import output from './utils/output';
 import * as webpack from 'webpack';
 import API from '../API';

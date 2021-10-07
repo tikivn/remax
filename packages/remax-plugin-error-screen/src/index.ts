@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as fs from 'fs';
 import VirtualModulesPlugin from 'webpack-virtual-modules';
-import { slash } from '@remax/shared';
+import { slash } from '@tiki.vn/remax-shared';
 
 export default (_: any, { cwd, rootDir }: { cwd: string; rootDir: string }) => {
   const searchCustomErrorFile = () => {
@@ -51,7 +51,7 @@ export default (_: any, { cwd, rootDir }: { cwd: string; rootDir: string }) => {
       config.plugin('remax-plugin-error-screen-virtual-modules').use(virtualModules);
     },
     registerRuntimePlugin() {
-      return '@remax/plugin-error-screen/runtime.js';
+      return '@tiki.vn/remax-plugin-error-screen/runtime.js';
     },
   };
 };

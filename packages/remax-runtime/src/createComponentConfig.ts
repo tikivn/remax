@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { RuntimeOptions, ComponentInstanceContext } from '@remax/framework-shared';
+import { RuntimeOptions, ComponentInstanceContext } from '@tiki.vn/remax-framework-shared';
 import Container from './Container';
 import render from './render';
 

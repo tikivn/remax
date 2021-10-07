@@ -1,9 +1,9 @@
 import * as t from '@babel/types';
 import { NodePath } from '@babel/traverse';
 import insertImportDeclaration from './utils/insertImportDeclaration';
-import Store from '@remax/build-store';
+import Store from '@tiki.vn/remax-build-store';
 
-const PACKAGE_NAME = '@remax/runtime';
+const PACKAGE_NAME = '@tiki.vn/remax-runtime';
 const FUNCTION_NAME = 'createNativeComponent';
 
 function getName(callExpression: NodePath<t.CallExpression>) {

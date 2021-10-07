@@ -1,4 +1,4 @@
-const { buildMiniComponent } = require('@remax/cli');
+const { buildMiniComponent } = require('@tiki.vn/remax-cli');
 
 const buildMap = [
   {

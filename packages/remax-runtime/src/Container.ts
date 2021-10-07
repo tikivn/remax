@@ -2,7 +2,7 @@ import VNode, { RawNode } from './VNode';
 import { generate } from './instanceId';
 import { FiberRoot } from 'react-reconciler';
 import nativeEffector from './nativeEffect';
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
 import { unstable_batchedUpdates } from './index';
 
 interface SpliceUpdate {

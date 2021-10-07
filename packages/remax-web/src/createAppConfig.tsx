@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ForwardRef } from 'react-is';
-import { AppInstanceContext, AppLifecycle, callbackName, isClassComponent } from '@remax/framework-shared';
+import { AppInstanceContext, AppLifecycle, callbackName, isClassComponent } from '@tiki.vn/remax-framework-shared';
 
 class DefaultAppComponent extends React.Component {
   render() {

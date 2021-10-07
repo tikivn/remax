@@ -1,5 +1,5 @@
 import webpack from 'webpack';
-import type { Options, Platform, AppConfig, BuildType, MiniPluginConfig } from '@remax/types';
+import type { Options, Platform, AppConfig, BuildType, MiniPluginConfig } from '@tiki.vn/remax-types';
 import API from '../API';
 import EntryCollection from './EntryCollection';
 import ProjectPath from './ProjectPath';

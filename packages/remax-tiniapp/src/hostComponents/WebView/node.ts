@@ -1,4 +1,4 @@
-import { unique } from '@remax/shared';
+import { unique } from '@tiki.vn/remax-shared';
 
 export const alias = { id: 'id', src: 'src', onMessage: 'onMessage' };
 

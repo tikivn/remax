@@ -3,10 +3,10 @@ import VirtualEntry from './VirtualEntry';
 export default class SpaEntry extends VirtualEntry {
   outputSource() {
     return `
-      import '@remax/web/assets/normalize.css';
-      import '@remax/web/assets/app.css';
+      import '@tiki.vn/remax-web/assets/normalize.css';
+      import '@tiki.vn/remax-web/assets/app.css';
       import App from '@/app';
-      import { bootstrap } from '@remax/web';
+      import { bootstrap } from '@tiki.vn/remax-web';
 
       bootstrap({
         appComponent: App,

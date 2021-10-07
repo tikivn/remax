@@ -9,7 +9,7 @@ import {
   AppLifecycle,
   callbackName,
   isClassComponent,
-} from '@remax/framework-shared';
+} from '@tiki.vn/remax-framework-shared';
 
 class DefaultAppComponent extends React.Component {
   render() {

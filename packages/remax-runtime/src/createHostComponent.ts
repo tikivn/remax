@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
 
 export default function createHostComponent<P = any>(name: string, component?: React.ComponentType<P>) {
   if (component) {

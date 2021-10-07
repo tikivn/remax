@@ -1,4 +1,4 @@
-import { promisify } from '@remax/framework-shared';
+import { promisify } from '@tiki.vn/remax-framework-shared';
 
 declare const wx: WechatMiniprogram.Wx;
 

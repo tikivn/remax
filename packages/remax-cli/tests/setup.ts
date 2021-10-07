@@ -7,7 +7,7 @@ import readdir from 'fs-readdir-recursive';
 import { diff } from 'jest-diff';
 import { sortBy } from 'lodash';
 import * as eol from 'eol';
-import { slash } from '@remax/shared';
+import { slash } from '@tiki.vn/remax-shared';
 
 type Received = Array<{
   fileName: string;

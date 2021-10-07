@@ -2,8 +2,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import utils from 'loader-utils';
 import { loader } from 'webpack';
-import Store from '@remax/build-store';
-import { isNativeComponent, slash } from '@remax/shared';
+import Store from '@tiki.vn/remax-build-store';
+import { isNativeComponent, slash } from '@tiki.vn/remax-shared';
 import { getNativeAssetOutputPath, replaceExtension } from '../../utils/paths';
 import { cssExtensions } from '../../../extensions';
 import Builder from '../../Builder';
@@ -61,7 +61,7 @@ export default async function nativeModule(this: loader.LoaderContext, source: s
     builder.entryCollection.nativeComponentEntries.set(entry.filename, entry);
     entry.watchAssets(this);
     await entry.addToWebpack(this._compiler, this._compilation);
-    finalSource = `import { createNativeComponent } from '@remax/runtime';
+    finalSource = `import { createNativeComponent } from '@tiki.vn/remax-runtime';
 export default createNativeComponent('${id}')
 `;
   }

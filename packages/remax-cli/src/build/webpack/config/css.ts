@@ -2,8 +2,8 @@ import * as path from 'path';
 import * as fs from 'fs';
 import Config from 'webpack-chain';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import type { Options } from '@remax/types';
-import { slash } from '@remax/shared';
+import type { Options } from '@tiki.vn/remax-types';
+import { slash } from '@tiki.vn/remax-shared';
 import Builder from '../../Builder';
 
 export interface RuleConfig {
@@ -56,7 +56,7 @@ export function addCSSRule(webpackConfig: Config, builder: Builder, web: boolean
               [require.resolve('postcss-preset-env')]: web && {
                 browsers: ['chrome >= 49', 'edge >= 13', 'ios >= 8', 'Android >= 4.4'],
               },
-              [require.resolve('@remax/postcss-px2units')]:
+              [require.resolve('@tiki.vn/remax-postcss-px2units')]:
                 options.pxToRpx &&
                 (web
                   ? {
@@ -64,7 +64,7 @@ export function addCSSRule(webpackConfig: Config, builder: Builder, web: boolean
                       divisor: 100,
                     }
                   : {}),
-              [require.resolve('@remax/postcss-tag')]: web && {},
+              [require.resolve('@tiki.vn/remax-postcss-tag')]: web && {},
             },
           },
         },

@@ -1,4 +1,4 @@
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki.vn/remax-runtime';
 
 export interface SwitchProps {
   readonly dataset?: DOMStringMap;

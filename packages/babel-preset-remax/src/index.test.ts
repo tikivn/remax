@@ -5,7 +5,7 @@ test('react default', () => {
   const code = transformSync(
     `
     import React from 'react'
-    import { View } from '@remax/one'
+    import { View } from '@tiki.vn/remax-one'
 
     function Demo() {
       return <View>demo</View>
@@ -25,7 +25,7 @@ test('react options', () => {
   const code = transformSync(
     `
     import React from 'react'
-    import { View } from '@remax/one'
+    import { View } from '@tiki.vn/remax-one'
 
     function Demo() {
       return <View>demo</View>

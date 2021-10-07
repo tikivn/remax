@@ -1,2 +1,2 @@
-import { usePageEvent } from '@remax/runtime';
+import { usePageEvent } from '@tiki.vn/remax-runtime';
 usePageEvent('onShow', () => {});

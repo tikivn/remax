@@ -1,2 +1,2 @@
 declare module 'yargs/helpers';
-declare module '@remax/father-build/lib/babel';
+declare module '@tiki.vn/remax-father-build/lib/babel';

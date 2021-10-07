@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import type { EntryInfo, AppConfig, MiniPluginConfig } from '@remax/types';
-import { slash } from '@remax/shared';
+import type { EntryInfo, AppConfig, MiniPluginConfig } from '@tiki.vn/remax-types';
+import { slash } from '@tiki.vn/remax-shared';
 import { replaceExtension } from './utils/paths';
 import Builder from './Builder';
 import NormalEntry from './entries/NormalEntry';

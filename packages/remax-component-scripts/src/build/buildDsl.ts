@@ -1,6 +1,6 @@
 import path from 'path';
-import { buildMiniComponent } from '@remax/cli';
-import UNSAFE_wechatTemplateDepth from '@remax/cli/lib/defaultOptions/UNSAFE_wechatTemplateDepth';
+import { buildMiniComponent } from '@tiki.vn/remax-cli';
+import UNSAFE_wechatTemplateDepth from '@tiki.vn/remax-cli/lib/defaultOptions/UNSAFE_wechatTemplateDepth';
 
 export function buildDsl({ cwd, sourceDir, miniOptions, output, watch, onTargetDir, babelrc, type }: any) {
   let originTarget = path.join(output, './' + type);

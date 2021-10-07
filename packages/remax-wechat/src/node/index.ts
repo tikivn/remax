@@ -1,6 +1,6 @@
 import * as path from 'path';
 import hostComponents from '../hostComponents/node';
-import type { PluginConstructor } from '@remax/types';
+import type { PluginConstructor } from '@tiki.vn/remax-types';
 
 const EJS_TPL_ROOT = path.join(__dirname, '../../templates');
 

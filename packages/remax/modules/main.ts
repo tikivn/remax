@@ -1,1 +1,1 @@
-export { createAppConfig, createPageConfig, usePageInstance, useQuery, useNativeEffect } from '@remax/web';
+export { createAppConfig, createPageConfig, usePageInstance, useQuery, useNativeEffect } from '@tiki.vn/remax-web';

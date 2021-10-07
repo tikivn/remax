@@ -1,7 +1,7 @@
 import { declare } from '@babel/helper-plugin-utils';
 import * as t from '@babel/types';
 import { NodePath } from '@babel/traverse';
-import Store from '@remax/build-store';
+import Store from '@tiki.vn/remax-build-store';
 import { TEMPLATE_ID, ENTRY, EXPRESSION_BLOCK, SKIP_ELEMENTS } from './constants';
 import { createTemplate } from './templates';
 import { JSXNode, RenderNode, Options } from './types';

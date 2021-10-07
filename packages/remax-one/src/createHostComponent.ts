@@ -1,6 +1,6 @@
 import * as React from 'react';
 import memoizeOne from 'memoize-one';
-import { formatDisplayName } from '@remax/framework-shared';
+import { formatDisplayName } from '@tiki.vn/remax-framework-shared';
 import {
   TapEvent,
   TouchEvent,

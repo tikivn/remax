@@ -1,8 +1,8 @@
 import { compilation } from 'webpack';
 import ejs from 'ejs';
-import type { Options, Meta, EntryInfo } from '@remax/types';
-import { slash } from '@remax/shared';
-import Store, { ExtractedTemplate } from '@remax/build-store';
+import type { Options, Meta, EntryInfo } from '@tiki.vn/remax-types';
+import { slash } from '@tiki.vn/remax-shared';
+import Store, { ExtractedTemplate } from '@tiki.vn/remax-build-store';
 import * as TurboRender from 'babel-plugin-remax-turbo-render';
 import { sortBy } from 'lodash';
 import { createRenderOptions } from './createTemplate';
