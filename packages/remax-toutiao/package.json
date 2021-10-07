@@ -1,5 +1,5 @@
 {
-  "name": "@remax/toutiao",
+  "name": "@tiki.vn/remax-toutiao",
   "version": "2.15.6",
   "description": "Remax for Toutiao",
   "main": "./cjs/index.js",
@@ -16,7 +16,7 @@
   "repository": "git+https://github.com/remaxjs/remax.git",
   "license": "MIT",
   "devDependencies": {
-    "@remax/types": "2.15.6",
+    "@tiki.vn/remax-types": "2.15.6",
     "@types/react": "^16.9.33",
     "@types/react-test-renderer": "^16.9.1",
     "react": "^16.12.0",
