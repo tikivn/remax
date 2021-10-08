@@ -16,7 +16,7 @@ module.exports = __webpack_require__(6);
 /* 4 */
 /***/ (function(module, exports) {
 
-module.exports = require("remax/runtime");
+module.exports = require("@tiki-miniapp/remax/runtime");
 
 /***/ }),
 /* 5 */

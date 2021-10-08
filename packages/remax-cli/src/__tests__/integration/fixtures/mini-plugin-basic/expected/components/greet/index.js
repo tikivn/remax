@@ -9,7 +9,7 @@ module.exports =
 /* 4 */
 /***/ (function(module, exports) {
 
-module.exports = require("remax/runtime");
+module.exports = require("@tiki-miniapp/remax/runtime");
 
 /***/ }),
 /* 5 */

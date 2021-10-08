@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View } from 'remax/one';
+import { View } from '@tiki-miniapp/remax/one';
 
 const styles = {
   screen: {
