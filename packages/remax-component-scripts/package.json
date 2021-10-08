@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-component-scripts",
-  "version": "2.15.11",
+  "version": "2.15.12",
   "description": "Remax 是一个全新的基于 React 的小程序开发框架",
   "main": "./lib/index.js",
   "bin": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@remax/father-build": "^1.19.8",
-    "@tiki-miniapp/remax-cli": "2.15.11",
+    "@tiki-miniapp/remax-cli": "2.15.12",
     "@types/lodash": "^4.14.171",
     "less": "^4.1.1",
     "less-loader": "^6.0.1",
@@ -46,5 +46,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "142d44bad56b16e93e7d619f746085a079f8e1be"
+  "gitHead": "fdace7493b163b5f4130604bb6bfef2e4ea585c9"
 }

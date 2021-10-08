@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/babel-plugin-remax-lifecycle",
-  "version": "2.15.11",
+  "version": "2.15.12",
   "description": "使用真正的 React 构建跨平台小程序",
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "homepage": "https://remaxjs.org",
@@ -28,14 +28,14 @@
     "@babel/helper-plugin-utils": "^7.10.4",
     "@babel/traverse": "^7.11.0",
     "@babel/types": "^7.11.0",
-    "@tiki-miniapp/remax-shared": "2.15.11"
+    "@tiki-miniapp/remax-shared": "2.15.12"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
-    "@tiki-miniapp/remax-build-store": "2.15.11"
+    "@tiki-miniapp/remax-build-store": "2.15.12"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "142d44bad56b16e93e7d619f746085a079f8e1be"
+  "gitHead": "fdace7493b163b5f4130604bb6bfef2e4ea585c9"
 }
