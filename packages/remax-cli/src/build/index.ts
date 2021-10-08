@@ -3,7 +3,7 @@ import output from './utils/output';
 import * as webpack from 'webpack';
 import API from '../API';
 
-const version = require('remax/package.json').version;
+const version = require('@tiki-miniapp/remax/package.json').version;
 
 export function run(options: Options, api: API): webpack.Compiler {
   process.env.NODE_ENV = process.env.NODE_ENV || 'development';

@@ -1,3 +1,4 @@
+// @ts-ignore
 import { connectToDevTools } from '@remax/react-devtools-core';
 import WebSocket from './WebSocket';
 
