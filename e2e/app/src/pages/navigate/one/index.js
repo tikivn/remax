@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, navigateTo } from 'remax/one';
+import { View, Text, navigateTo } from '@tiki-miniapp/remax/one';
 
 export default () => {
   return (

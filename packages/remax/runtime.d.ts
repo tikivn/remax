@@ -1,1 +1,1 @@
-export * from '@remax/runtime';
+export * from '@tiki-miniapp/remax-runtime';

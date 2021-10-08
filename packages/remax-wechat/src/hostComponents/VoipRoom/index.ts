@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { BaseProps, GenericEvent } from '../../types/component';
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 
 export interface VoipRoomProps extends BaseProps {
   /** 进入房间用户的 openid 2.11.0 */

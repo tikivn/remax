@@ -1,8 +1,8 @@
 import * as path from 'path';
 import { Compiler, compilation } from 'webpack';
 import { ConcatSource } from 'webpack-sources';
-import type { Meta } from '@remax/types';
-import { slash } from '@remax/shared';
+import type { Meta } from '@tiki-miniapp/remax-types';
+import { slash } from '@tiki-miniapp/remax-shared';
 
 const PLUGIN_NAME = 'RemaxOptimizeEntriesPlugin';
 

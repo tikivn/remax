@@ -1,6 +1,6 @@
-import errorScreen from '@remax/plugin-error-screen';
-import devtools from '@remax/plugin-devtools';
-import type { Options, Plugin } from '@remax/types';
+import errorScreen from '@tiki-miniapp/remax-plugin-error-screen';
+import devtools from '@tiki-miniapp/remax-plugin-devtools';
+import type { Options, Plugin } from '@tiki-miniapp/remax-types';
 
 export const builtinPlugins = (
   options: Options

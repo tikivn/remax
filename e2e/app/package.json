@@ -21,7 +21,7 @@
     "clsx": "^1.0.4",
     "mini-antui": "^0.4.34",
     "react": "^16.8.6",
-    "remax": "*"
+    "@tiki-miniapp/remax": "*"
   },
   "devDependencies": {
     "@types/expect-puppeteer": "^4.4.0",

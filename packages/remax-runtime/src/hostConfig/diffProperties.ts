@@ -1,4 +1,4 @@
-import { includes } from '@remax/framework-shared';
+import { includes } from '@tiki-miniapp/remax-framework-shared';
 const STYLE = ['style', 'placeholderStyle'];
 const CHILDREN = 'children';
 const CLASS_NAME = 'className';

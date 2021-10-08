@@ -24,18 +24,18 @@ module.exports = __webpack_require__(13);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
 
 
-Page(Object(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_index_js__WEBPACK_IMPORTED_MODULE_1__["default"], 'pages/react/index'));
+Page(Object(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_index_js__WEBPACK_IMPORTED_MODULE_1__["default"], 'pages/react/index'));
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports) {
 
-module.exports = require("@remax/runtime");
+module.exports = require("@tiki-miniapp/remax-runtime");
 
 /***/ }),
 /* 15 */
@@ -75,10 +75,10 @@ module.exports = require("remax");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createNativeComponent"])('foo-index-11b8f33'));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createNativeComponent"])('foo-index-11b8f33'));
 
 /***/ }),
 /* 19 */
@@ -86,10 +86,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createNativeComponent"])('bar-index-8837ac4'));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createNativeComponent"])('bar-index-8837ac4'));
 
 /***/ })
 ],[[12,0]]]);

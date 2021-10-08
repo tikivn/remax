@@ -1,1 +1,1 @@
-export { useAppEvent, usePageEvent } from '@remax/runtime';
+export { useAppEvent, usePageEvent } from '@tiki-miniapp/remax-runtime';

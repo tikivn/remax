@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { requirePluginComponent } from '@remax/macro';
+import { requirePluginComponent } from '@tiki-miniapp/remax-macro';
 import { View } from 'remax';
 import A from '../components/a';
 import B from '@/components/b';

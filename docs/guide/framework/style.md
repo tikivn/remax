@@ -11,7 +11,7 @@ Remax 支持通过插件的方式添加 CSS 预处理器，以 Less 为例：
 
 ```js
 // remax.config.js
-const less = require('@remax/plugin-less');
+const less = require('@tiki-miniapp/remax-plugin-less');
 
 module.exports = {
   plugins: [less()],

@@ -1,7 +1,7 @@
 import ejs from 'ejs';
 import { compilation } from 'webpack';
-import type { Meta } from '@remax/types';
-import Store, { ExtractedTemplate } from '@remax/build-store';
+import type { Meta } from '@tiki-miniapp/remax-types';
+import Store, { ExtractedTemplate } from '@tiki-miniapp/remax-build-store';
 
 export default async function createIsolatedTemplate(meta: Meta, compilation: compilation.Compilation) {
   const templates: ExtractedTemplate[] = [];

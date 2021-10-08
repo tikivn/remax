@@ -1,1 +1,1 @@
-export { navigateTo, navigateBack, redirectTo, reLaunch, switchTab } from '@remax/tiniapp';
+export { navigateTo, navigateBack, redirectTo, reLaunch, switchTab } from '@tiki-miniapp/remax-tiniapp';

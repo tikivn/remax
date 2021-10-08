@@ -1,5 +1,5 @@
 import * as path from 'path';
-import type { Options, Platform } from '@remax/types';
+import type { Options, Platform } from '@tiki-miniapp/remax-types';
 
 interface Alias {
   [key: string]: string;
@@ -13,7 +13,7 @@ export default (options: Options, target: Platform) => {
   };
 
   if (target !== 'web') {
-    config['react-dom'] = '@remax/runtime';
+    config['react-dom'] = '@tiki-miniapp/remax-runtime';
   }
 
   return config;

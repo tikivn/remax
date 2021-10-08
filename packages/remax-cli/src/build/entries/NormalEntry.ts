@@ -1,4 +1,4 @@
-import { slash } from '@remax/shared';
+import { slash } from '@tiki-miniapp/remax-shared';
 import Builder from '../Builder';
 import { replaceExtension } from '../utils/paths';
 import readManifest from '../../readManifest';

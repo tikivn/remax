@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import qs from 'qs';
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 
 export default function useQuery<
   Q extends Record<string, string | undefined> = { [name: string]: string | undefined }

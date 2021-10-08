@@ -13,7 +13,7 @@ describe('node', () => {
         "tag": "import",
       }
     `);
-    expect(meta.style).toMatchInlineSnapshot(`".acss"`);
+    expect(meta.style).toMatchInlineSnapshot(`".tcss"`);
     expect(meta.jsHelper).toMatchInlineSnapshot(`
       Object {
         "extension": ".sjs",

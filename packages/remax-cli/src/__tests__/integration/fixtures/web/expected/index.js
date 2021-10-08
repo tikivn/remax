@@ -11,18 +11,18 @@ module.exports = __webpack_require__(1);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _remax_web_assets_normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-/* harmony import */ var _remax_web_assets_normalize_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_remax_web_assets_normalize_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _remax_web_assets_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
-/* harmony import */ var _remax_web_assets_app_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_remax_web_assets_app_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _tiki_miniapp_remax_web_assets_normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* harmony import */ var _tiki_miniapp_remax_web_assets_normalize_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_web_assets_normalize_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tiki_miniapp_remax_web_assets_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
+/* harmony import */ var _tiki_miniapp_remax_web_assets_app_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_web_assets_app_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
-/* harmony import */ var _remax_web__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
-/* harmony import */ var _remax_web__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_remax_web__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _tiki_miniapp_remax_web__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
+/* harmony import */ var _tiki_miniapp_remax_web__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_web__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 
-Object(_remax_web__WEBPACK_IMPORTED_MODULE_3__["bootstrap"])({
+Object(_tiki_miniapp_remax_web__WEBPACK_IMPORTED_MODULE_3__["bootstrap"])({
   appComponent: _app__WEBPACK_IMPORTED_MODULE_2__["default"],
   appConfig: {
     "pages": ["pages/index/index", "pages/index/index2"],
@@ -50,13 +50,13 @@ Object(_remax_web__WEBPACK_IMPORTED_MODULE_3__["bootstrap"])({
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("@remax/web/assets/normalize.css");
+module.exports = require("@tiki-miniapp/remax-web/assets/normalize.css");
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("@remax/web/assets/app.css");
+module.exports = require("@tiki-miniapp/remax-web/assets/app.css");
 
 /***/ }),
 /* 4 */
@@ -93,7 +93,7 @@ module.exports = require("react");
 /* 7 */
 /***/ (function(module, exports) {
 
-module.exports = require("@remax/web");
+module.exports = require("@tiki-miniapp/remax-web");
 
 /***/ }),
 /* 8 */,

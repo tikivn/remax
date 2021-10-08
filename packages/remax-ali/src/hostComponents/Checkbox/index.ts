@@ -1,4 +1,4 @@
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 
 export interface CheckboxProps {
   readonly dataset?: DOMStringMap;

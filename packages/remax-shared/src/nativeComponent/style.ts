@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'fs';
 import postcss from 'postcss';
 import { getPath } from './helpers';
-import type { Meta } from '@remax/types';
+import type { Meta } from '@tiki-miniapp/remax-types';
 
 export const walk = (filePath: string, cssPaths: Set<string>) => {
   if (!existsSync(filePath)) {

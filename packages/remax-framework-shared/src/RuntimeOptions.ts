@@ -1,4 +1,4 @@
-import type { HostComponent, Platform } from '@remax/types';
+import type { HostComponent, Platform } from '@tiki-miniapp/remax-types';
 import PluginDriver from './PluginDriver';
 
 interface RuntimeOptions {

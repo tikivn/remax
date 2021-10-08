@@ -5,5 +5,5 @@ export {
   usePageInstance,
   useQuery,
   useNativeEffect,
-  unstable_batchedUpdates
-} from '@remax/runtime';
+  unstable_batchedUpdates,
+} from '@tiki-miniapp/remax-runtime';

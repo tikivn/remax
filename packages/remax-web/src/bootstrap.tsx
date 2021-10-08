@@ -1,7 +1,7 @@
 import { render } from 'react-dom';
 import hd from 'umi-hd';
 import { createHashHistory, createBrowserHistory } from 'history';
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 import createApp from './createApp';
 import { BootstrapOptions } from './types';
 

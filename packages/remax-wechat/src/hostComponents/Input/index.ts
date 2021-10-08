@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { BaseProps, GenericEvent } from '../../types/component';
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 
 export interface InputProps extends BaseProps {
   /**

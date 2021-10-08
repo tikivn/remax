@@ -1,4 +1,4 @@
-import type { Platform } from '@remax/types';
+import type { Platform } from '@tiki-miniapp/remax-types';
 
 const extensions = ['.mjs', '.js', '.jsx', '.ts', '.tsx', '.json'];
 

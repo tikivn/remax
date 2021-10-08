@@ -1,6 +1,6 @@
 import * as babel from '@babel/core';
-import Store from '@remax/build-store';
-import { slash } from '@remax/shared';
+import Store from '@tiki-miniapp/remax-build-store';
+import { slash } from '@tiki-miniapp/remax-shared';
 import page from '../src/page';
 
 function transform(code: string) {

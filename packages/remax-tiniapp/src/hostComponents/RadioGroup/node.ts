@@ -1,4 +1,4 @@
-import { unique } from '@remax/shared';
+import { unique } from '@tiki-miniapp/remax-shared';
 
 export const alias = {
   id: 'id',

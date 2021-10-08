@@ -14,7 +14,7 @@ $ npm install @remax/plugin-less --save
 在 `remax.config.js` 中配置：
 
 ```js
-const less = require('@remax/plugin-less');
+const less = require('@tiki-miniapp/remax-plugin-less');
 
 module.exports = {
   plugins: [

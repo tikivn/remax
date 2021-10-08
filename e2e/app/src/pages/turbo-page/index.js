@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Fragment } from 'react';
-import { View, View as CustomView, Text, Button, Picker } from 'remax/ali';
-import { createHostComponent } from 'remax/macro';
-import * as Remax from 'remax/one';
+import { View, View as CustomView, Text, Button, Picker } from '@tiki-miniapp/remax/ali';
+import { createHostComponent } from '@tiki-miniapp/remax/macro';
+import * as Remax from '@tiki-miniapp/remax/one';
 import Badge from 'mini-antui/es/badge/index';
 import Card from '@/components/Card';
 import A from './module';

@@ -1,5 +1,5 @@
 import * as t from '@babel/types';
-import Store from '@remax/build-store';
+import Store from '@tiki-miniapp/remax-build-store';
 import { TEMPLATE_ID, REACT_KEY, LEAF, ENTRY } from '../constants';
 
 /**

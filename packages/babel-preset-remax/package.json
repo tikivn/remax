@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-remax",
+  "name": "@tiki-miniapp/babel-preset-remax",
   "version": "2.15.6",
   "description": "remax babel preset",
   "main": "lib/index.js",

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { usePageEvent } from '@remax/macro';
+import { usePageEvent } from '@tiki-miniapp/remax-macro';
 import { View } from 'remax';
 
 export default function () {

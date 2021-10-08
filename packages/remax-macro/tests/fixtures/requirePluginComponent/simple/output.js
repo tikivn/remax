@@ -1,2 +1,2 @@
-import { createNativeComponent } from '@remax/runtime';
+import { createNativeComponent } from '@tiki-miniapp/remax-runtime';
 createNativeComponent('component-ce1ea8e');

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useAppEvent } from 'remax/macro';
+import { useAppEvent } from '@tiki-miniapp/remax/macro';
 import { GlobalContext } from './GlobalContext';
 
 const App = props => {

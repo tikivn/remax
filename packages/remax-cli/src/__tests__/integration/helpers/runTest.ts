@@ -1,7 +1,7 @@
 import * as path from 'path';
 import { buildApp, JEST_BUILD_TIMEOUT, buildMiniPlugin, buildMiniComponent } from './build';
-import type { Platform } from '@remax/types';
-import Store from '@remax/build-store';
+import type { Platform } from '@tiki-miniapp/remax-types';
+import Store from '@tiki-miniapp/remax-build-store';
 
 export function testBuildApp(
   app: string,

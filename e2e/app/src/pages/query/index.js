@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { useQuery } from 'remax';
-import { View } from 'remax/one';
+import { useQuery } from '@tiki-miniapp/remax';
+import { View } from '@tiki-miniapp/remax/one';
 
 export default props => {
   const query = useQuery();

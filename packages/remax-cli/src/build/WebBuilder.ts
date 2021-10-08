@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import detect from 'detect-port';
-import type { Options } from '@remax/types';
+import type { Options } from '@tiki-miniapp/remax-types';
 import webpackConfig from './webpack/config.web';
 import mpaWebpackConfig from './webpack/config.web.mpa';
 import address from 'address';

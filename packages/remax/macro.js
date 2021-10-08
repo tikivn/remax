@@ -1,1 +1,1 @@
-module.exports = require('@remax/macro');
+module.exports = require('@tiki-miniapp/remax-macro');

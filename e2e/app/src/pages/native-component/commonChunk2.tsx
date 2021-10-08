@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View } from 'remax/one';
+import { View } from '@tiki-miniapp/remax/one';
 import G from '@/components/g';
 import B from '@/components/b';
 

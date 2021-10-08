@@ -5,7 +5,7 @@ import render from '../render';
 import { reset as resetInstanceId } from '../instanceId';
 import Container from '../Container';
 import { useNativeEffect } from '../hooks';
-import { RuntimeOptions } from '@remax/framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 
 const p = {
   setData(state: any, callback: () => void) {

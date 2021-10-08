@@ -1,4 +1,4 @@
-import type { Options } from '@remax/types';
+import type { Options } from '@tiki-miniapp/remax-types';
 import API from '../API';
 import output from './utils/output';
 import Builder from './Builder';

@@ -1,10 +1,10 @@
 import * as t from '@babel/types';
-import { slash } from '@remax/shared';
+import { slash } from '@tiki-miniapp/remax-shared';
 import { NodePath } from '@babel/traverse';
-import Store from '@remax/build-store';
+import Store from '@tiki-miniapp/remax-build-store';
 import insertImportDeclaration from './utils/insertImportDeclaration';
 
-const PACKAGE_NAME = '@remax/runtime';
+const PACKAGE_NAME = '@tiki-miniapp/remax-runtime';
 const FUNCTION_NAME = 'useAppEvent';
 
 function getArguments(callExpression: NodePath<t.CallExpression>, importer: string) {

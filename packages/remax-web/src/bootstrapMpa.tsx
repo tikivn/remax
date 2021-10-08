@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from 'react-dom';
 import hd from 'umi-hd';
 import createAppConfig from './createAppConfig';
-import { PluginDriver, RuntimeOptions } from '@remax/framework-shared';
+import { PluginDriver, RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 import createPageConfig from './createPageConfig';
 
 const noop = () => {

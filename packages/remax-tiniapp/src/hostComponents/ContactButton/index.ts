@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createHostComponent } from '@remax/runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 
 export interface ContactButtonProps {
   readonly dataset?: DOMStringMap;

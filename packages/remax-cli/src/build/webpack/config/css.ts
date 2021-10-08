@@ -2,8 +2,8 @@ import * as path from 'path';
 import * as fs from 'fs';
 import Config from 'webpack-chain';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import type { Options } from '@remax/types';
-import { slash } from '@remax/shared';
+import type { Options } from '@tiki-miniapp/remax-types';
+import { slash } from '@tiki-miniapp/remax-shared';
 import Builder from '../../Builder';
 
 export interface RuleConfig {
