@@ -1,5 +1,5 @@
 {
-  "name": "@tiki.vn/postcss-tag",
+  "name": "@tiki-miniapp/postcss-tag",
   "version": "2.15.6",
   "main": "index.js",
   "repository": "git@github.com:remaxjs/remax.git",

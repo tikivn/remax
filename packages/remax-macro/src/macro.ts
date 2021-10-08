@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { NodePath } from '@babel/traverse';
 import { createMacro } from 'babel-plugin-macros';
-import { slash } from '@tiki.vn/remax-shared';
-import Store from '@tiki.vn/remax-build-store';
+import { slash } from '@tiki-miniapp/remax-shared';
+import Store from '@tiki-miniapp/remax-build-store';
 import createHostComponentMacro from './createHostComponent';
 import requirePluginComponentMacro from './requirePluginComponent';
 import requirePluginMacro from './requirePlugin';

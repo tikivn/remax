@@ -3,16 +3,16 @@ import * as webpack from 'webpack';
 import Config from 'webpack-chain';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import WebpackBar from 'webpackbar';
-import type { Options } from '@tiki.vn/remax-types';
+import type { Options } from '@tiki-miniapp/remax-types';
 import VirtualModulesPlugin from 'webpack-virtual-modules';
-import { slash } from '@tiki.vn/remax-shared';
+import { slash } from '@tiki-miniapp/remax-shared';
 import ejs from 'ejs';
 import { moduleMatcher, targetExtensions } from '../../extensions';
-import hostComponent from 'babel-plugin-remax-host-component';
-import * as TurboRender from 'babel-plugin-remax-turbo-render';
-import * as Lifecycle from 'babel-plugin-remax-lifecycle';
-import fixRegeneratorRuntime from 'babel-plugin-remax-regenerator-runtime';
-import Store from '@tiki.vn/remax-build-store';
+import hostComponent from '@tiki-miniapp/babel-plugin-remax-host-component';
+import * as TurboRender from '@tiki-miniapp/babel-plugin-remax-turbo-render';
+import * as Lifecycle from '@tiki-miniapp/babel-plugin-remax-lifecycle';
+import fixRegeneratorRuntime from '@tiki-miniapp/babel-plugin-remax-regenerator-runtime';
+import Store from '@tiki-miniapp/remax-build-store';
 import { addCSSRule, cssConfig, RuleConfig } from './config/css';
 import baseConfig from './baseConfig';
 import fs from 'fs';
@@ -150,7 +150,7 @@ export default function webpackConfig(builder: Builder): webpack.Configuration {
 
   entries.forEach(entry => {
     if (!(entry instanceof NativeEntry)) {
-      config.entry(entry.name).prepend('@tiki.vn/remax-apply-runtime-options');
+      config.entry(entry.name).prepend('@remax/apply-runtime-options');
     }
   });
 

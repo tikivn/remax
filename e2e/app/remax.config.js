@@ -1,5 +1,5 @@
 const path = require('path');
-const less = require('@tiki.vn/remax-plugin-less');
+const less = require('@remax/plugin-less');
 
 module.exports = {
   port: 3001,

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { RuntimeOptions, PluginDriver } from '@tiki.vn/remax-framework-shared';
+import { RuntimeOptions, PluginDriver } from '@tiki-miniapp/remax-framework-shared';
 import { CacheRoute, CacheSwitch } from '@remax/react-router-cache-route';
 import { Router, Route, Redirect, useLocation } from 'react-router-dom';
 import loadable from '@loadable/component';

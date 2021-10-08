@@ -3,7 +3,7 @@
  *
  * 3.0 可以干掉
  */
-import type { Options } from '@tiki.vn/remax-types';
+import type { Options } from '@tiki-miniapp/remax-types';
 import API from './API';
 import { internalBuildApp } from './build';
 

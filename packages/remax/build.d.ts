@@ -1,2 +1,2 @@
-export { buildApp } from '@tiki.vn/remax-cli/lib/build';
-export { buildMiniPlugin } from '@tiki.vn/remax-cli/lib/build';
+export { buildApp } from '@tiki-miniapp/remax-cli/lib/build';
+export { buildMiniPlugin } from '@tiki-miniapp/remax-cli/lib/build';

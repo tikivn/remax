@@ -1,4 +1,4 @@
-const { slash } = require('@tiki.vn/remax-shared');
+const { slash } = require('@tiki-miniapp/remax-shared');
 const { default: InjectPlugin, ENTRY_ORDER } = require('webpack-inject-plugin');
 
 module.exports = () => ({
@@ -26,7 +26,7 @@ module.exports = () => ({
     ]);
 
     config.plugin('plugin-devtools-webpack-inject-plugin').use(InjectPlugin, [
-      () => `import '${slash(require.resolve('@tiki.vn/remax-react-devtools-core'))}';`,
+      () => `import '${slash(require.resolve('@tiki-miniapp/remax-react-devtools-core'))}';`,
       {
         entryName: 'app',
         entryOrder: ENTRY_ORDER.First,

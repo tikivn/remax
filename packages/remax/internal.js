@@ -1,1 +1,1 @@
-export { useAppEvent, usePageEvent } from '@tiki.vn/remax-web';
+export { useAppEvent, usePageEvent } from '@tiki-miniapp/remax-web';

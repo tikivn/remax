@@ -3,7 +3,7 @@ import './helpers/setupGlobals';
 import App from './helpers/App';
 import { useAppEvent } from '../hooks';
 import createAppConfig from '../createAppConfig';
-import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 
 describe('app', () => {
   beforeAll(() => {

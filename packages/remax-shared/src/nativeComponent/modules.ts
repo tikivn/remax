@@ -3,7 +3,7 @@ import * as babelParser from '@babel/parser';
 import traverse from '@babel/traverse';
 import { get } from 'lodash';
 import resolve from 'resolve';
-import type { Options } from '@tiki.vn/remax-types';
+import type { Options } from '@tiki-miniapp/remax-types';
 import { getPath } from './helpers';
 
 const walk = (jsPath: string, modules: Set<string>, options: Options) => {

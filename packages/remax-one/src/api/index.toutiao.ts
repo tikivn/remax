@@ -1,1 +1,1 @@
-export { navigateTo, navigateBack, redirectTo, reLaunch, switchTab } from '@tiki.vn/remax-toutiao';
+export { navigateTo, navigateBack, redirectTo, reLaunch, switchTab } from '@tiki-miniapp/remax-toutiao';

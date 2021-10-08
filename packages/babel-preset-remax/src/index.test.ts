@@ -5,7 +5,7 @@ test('react default', () => {
   const code = transformSync(
     `
     import React from 'react'
-    import { View } from '@tiki.vn/remax-one'
+    import { View } from '@tiki-miniapp/remax-one'
 
     function Demo() {
       return <View>demo</View>
@@ -18,14 +18,14 @@ test('react default', () => {
     }
   )!.code;
 
-  expect(code).toMatch(`/*#__PURE__*/_react.default.createElement(_one.View, null, "demo")`);
+  expect(code).toMatch(`/*#__PURE__*/_react.default.createElement(_remaxOne.View, null, "demo")`);
 });
 
 test('react options', () => {
   const code = transformSync(
     `
     import React from 'react'
-    import { View } from '@tiki.vn/remax-one'
+    import { View } from '@tiki-miniapp/remax-one'
 
     function Demo() {
       return <View>demo</View>
@@ -38,6 +38,6 @@ test('react options', () => {
     }
   )!.code;
 
-  expect(code).toMatch(`return /*#__PURE__*/_react.default.createElement(_one.View, {`);
+  expect(code).toMatch(`return /*#__PURE__*/_react.default.createElement(_remaxOne.View, {`);
   expect(code).toMatch(`__self: this,`);
 });

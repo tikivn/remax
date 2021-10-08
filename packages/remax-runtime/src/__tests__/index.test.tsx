@@ -6,7 +6,7 @@ import render from '../render';
 import { reset as resetInstanceId } from '../instanceId';
 import Container from '../Container';
 import { useNativeEffect } from '../hooks';
-import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 
 function delay(ms: number): Promise<void> {
   if (typeof ms !== 'number') {

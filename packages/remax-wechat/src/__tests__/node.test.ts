@@ -1,5 +1,5 @@
 import node from '../node';
-import type { Meta } from '@tiki.vn/remax-types';
+import type { Meta } from '@tiki-miniapp/remax-types';
 
 describe('node', () => {
   it('meta', () => {

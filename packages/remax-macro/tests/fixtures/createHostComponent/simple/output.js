@@ -1,2 +1,2 @@
-import { createHostComponent } from '@tiki.vn/remax-runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 createHostComponent('host-component');

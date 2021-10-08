@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { requirePluginComponent, requirePlugin } from '@tiki.vn/remax-macro';
+import { requirePluginComponent, requirePlugin } from '@tiki-miniapp/remax-macro';
 import { View } from 'remax';
 
 const Plugin = requirePlugin('plugin://myPlugin');

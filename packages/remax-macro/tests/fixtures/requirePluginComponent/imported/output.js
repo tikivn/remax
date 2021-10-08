@@ -1,3 +1,3 @@
-import { createNativeComponent } from '@tiki.vn/remax-runtime';
+import { createNativeComponent } from '@tiki-miniapp/remax-runtime';
 import 'remax';
 createNativeComponent('component-ce1ea8e');

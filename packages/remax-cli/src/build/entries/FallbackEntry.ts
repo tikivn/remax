@@ -3,7 +3,7 @@ import VirtualEntry from './VirtualEntry';
 export default class FallbackEntry extends VirtualEntry {
   outputSource() {
     return `
-      import { renderLanding } from '@tiki.vn/remax-web';
+      import { renderLanding } from '@tiki-miniapp/remax-web';
 
       renderLanding(${JSON.stringify(
         Array.from(this.builder.entryCollection.entries.values()).map(entry => ({

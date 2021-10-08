@@ -1,6 +1,6 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 import { NavigatorProps } from './props';
 import { filterProps } from '../../utils/isPlatformSpecifyProp';
 

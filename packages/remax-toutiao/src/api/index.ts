@@ -1,4 +1,4 @@
-import { promisify } from '@tiki.vn/remax-framework-shared';
+import { promisify } from '@tiki-miniapp/remax-framework-shared';
 
 export const getAppStub = getApp;
 

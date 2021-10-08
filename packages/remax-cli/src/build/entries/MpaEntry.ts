@@ -9,11 +9,11 @@ export default class MpaEntry extends VirtualEntry {
     });
 
     return `
-      import '@tiki.vn/remax-web/assets/normalize.css';
-      import '@tiki.vn/remax-web/assets/app.css';
+      import '@tiki-miniapp/remax-web/assets/normalize.css';
+      import '@tiki-miniapp/remax-web/assets/app.css';
       import App from '@/app';
       import Page from './${path.basename(this.filename)}';
-      import { bootstrapMpa } from '@tiki.vn/remax-web';
+      import { bootstrapMpa } from '@tiki-miniapp/remax-web';
 
       bootstrapMpa({
         appComponent: App,

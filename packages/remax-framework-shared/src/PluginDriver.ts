@@ -1,4 +1,4 @@
-import type { RuntimePlugin } from '@tiki.vn/remax-types';
+import type { RuntimePlugin } from '@tiki-miniapp/remax-types';
 
 export default class PluginDriver {
   plugins: RuntimePlugin[];

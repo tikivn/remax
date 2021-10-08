@@ -5,7 +5,7 @@ import VirtualEntry from './VirtualEntry';
 import Builder from '../Builder';
 import NativeAssets from '../NativeAssets';
 import output from '../utils/output';
-import { slash } from '@tiki.vn/remax-shared';
+import { slash } from '@tiki-miniapp/remax-shared';
 
 interface Manifest {
   usingComponents?: Record<string, string>;

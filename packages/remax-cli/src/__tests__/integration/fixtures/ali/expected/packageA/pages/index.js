@@ -23,14 +23,14 @@ module.exports = __webpack_require__(24);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
-/* harmony import */ var _remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
 __webpack_require__(25);
 
 
 
-Page(Object(_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_index_js__WEBPACK_IMPORTED_MODULE_1__["default"], 'packageA/pages/index'));
+Page(Object(_tiki_miniapp_remax_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_index_js__WEBPACK_IMPORTED_MODULE_1__["default"], 'packageA/pages/index'));
 
 /***/ }),
 
@@ -84,7 +84,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 /***/ 6:
 /***/ (function(module, exports) {
 
-module.exports = require("@remax/runtime");
+module.exports = require("@tiki-miniapp/remax-runtime");
 
 /***/ }),
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createHostComponent } from '@tiki.vn/remax-runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 import { BaseProps, TouchEvent } from '../../types/component';
 
 export interface ViewProps extends BaseProps {

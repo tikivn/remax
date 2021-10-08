@@ -1,6 +1,6 @@
 import * as React from 'react';
 import qs from 'qs';
-import { createPageWrapper, Lifecycle, callbackName } from '@tiki.vn/remax-framework-shared';
+import { createPageWrapper, Lifecycle, callbackName } from '@tiki-miniapp/remax-framework-shared';
 import PullToRefresh from './PullToRefresh';
 import { TabBarConfig, PageConfig } from './types';
 

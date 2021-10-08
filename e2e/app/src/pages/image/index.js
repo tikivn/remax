@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Image } from 'remax/one';
+import { View, Image } from '@tiki-miniapp/remax/one';
 import catImage from '@/assets/images/cat.jpg';
 import './index.css';
 

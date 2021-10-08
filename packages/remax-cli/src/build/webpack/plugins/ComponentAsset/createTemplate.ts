@@ -1,10 +1,10 @@
 import { sortBy } from 'lodash';
 import { compilation } from 'webpack';
 import ejs from 'ejs';
-import type { Options, Meta } from '@tiki.vn/remax-types';
-import Store from '@tiki.vn/remax-build-store';
+import type { Options, Meta } from '@tiki-miniapp/remax-types';
+import Store from '@tiki-miniapp/remax-build-store';
 import SourceCache from '../../../../SourceCache';
-import { slash } from '@tiki.vn/remax-shared';
+import { slash } from '@tiki-miniapp/remax-shared';
 import { getUsingComponents } from '../getUsingComponents';
 import path from 'path';
 import ComponentEntry from '../../../entries/ComponentEntry';

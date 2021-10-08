@@ -1,7 +1,7 @@
 import BaseBuilder from './Builder';
 import output from './utils/output';
 import watch from './watch';
-import type { Options } from '@tiki.vn/remax-types';
+import type { Options } from '@tiki-miniapp/remax-types';
 import API from '../API';
 import webpackConfig from './webpack/config.mini';
 import webpack from 'webpack';

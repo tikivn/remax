@@ -1,1 +1,1 @@
-export * from '@tiki.vn/remax-wechat';
+export * from '@tiki-miniapp/remax-wechat';

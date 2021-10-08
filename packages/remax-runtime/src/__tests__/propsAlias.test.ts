@@ -1,5 +1,5 @@
 import propsAlias, { getAlias } from '../propsAlias';
-import { RuntimeOptions } from '@tiki.vn/remax-framework-shared';
+import { RuntimeOptions } from '@tiki-miniapp/remax-framework-shared';
 
 describe('props alias', () => {
   beforeAll(() => {

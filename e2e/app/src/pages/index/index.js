@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { View, Text, Button, Image } from 'remax/one';
+import { View, Text, Button, Image } from '@tiki-miniapp/remax/one';
 
 export default class Page extends React.Component {
   render() {
     return (
       <View>
         <View>
-          <Button style={{background: "#0074D9", color: "white"}}>hello</Button>
+          <Button style={{ background: '#0074D9', color: 'white' }}>hello</Button>
         </View>
 
         <View>
@@ -16,7 +16,8 @@ export default class Page extends React.Component {
         <View>
           <Image
             mode="aspectFit"
-            src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ" />
+            src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ"
+          />
         </View>
       </View>
     );

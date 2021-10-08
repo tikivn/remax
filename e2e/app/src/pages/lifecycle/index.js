@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { View } from 'remax/one';
-import { usePageEvent } from 'remax/macro';
+import { View } from '@tiki-miniapp/remax/one';
+import { usePageEvent } from '@tiki-miniapp/remax/macro';
 import { GlobalContext } from '../../GlobalContext';
 
 export default () => {

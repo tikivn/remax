@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const remaxWeb = require('@tiki.vn/remax-web');
+const remaxWeb = require('@tiki-miniapp/remax-web');
 
 // TODO: DEMONSTRATE API
 ```

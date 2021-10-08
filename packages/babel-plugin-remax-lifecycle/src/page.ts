@@ -1,7 +1,7 @@
 import * as t from '@babel/types';
 import { NodePath } from '@babel/traverse';
-import Store from '@tiki.vn/remax-build-store';
-import { slash } from '@tiki.vn/remax-shared';
+import Store from '@tiki-miniapp/remax-build-store';
+import { slash } from '@tiki-miniapp/remax-shared';
 
 const lifecycleEvents = ['onPageScroll', 'onShareAppMessage', 'onShareTimeline'];
 

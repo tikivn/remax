@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-const RemaxCLI = require('@tiki.vn/remax-cli').default;
+const RemaxCLI = require('@tiki-miniapp/remax-cli').default;
 
 new RemaxCLI().run(process.argv.slice(2, process.argv.length));

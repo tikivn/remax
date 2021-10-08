@@ -1,4 +1,4 @@
-import { connectToDevTools } from '@tiki.vn/remax-react-devtools-core';
+import { connectToDevTools } from '@tiki-miniapp/remax-react-devtools-core';
 import WebSocket from './WebSocket';
 
 export default {

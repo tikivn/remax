@@ -1,4 +1,4 @@
-import { find } from '@tiki.vn/remax-framework-shared';
+import { find } from '@tiki-miniapp/remax-framework-shared';
 import stopPropagation, { validate as validatePropagation, isPropagationStopped } from './stopPropagation';
 import { SYNTHETIC_TYPES, DEPRECATED_CATCH_TYPE } from './constants';
 import VNode from '../VNode';

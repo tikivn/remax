@@ -1,4 +1,4 @@
-import { unique } from '@tiki.vn/remax-shared';
+import { unique } from '@tiki-miniapp/remax-shared';
 
 export const alias = {
   publicId: 'public-id',

@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import type { Options } from '@tiki.vn/remax-types';
+import type { Options } from '@tiki-miniapp/remax-types';
 
 type Env = Record<string, string | undefined>;
 

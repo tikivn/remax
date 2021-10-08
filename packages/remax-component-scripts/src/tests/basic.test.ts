@@ -6,7 +6,7 @@ import rimraf = require('rimraf');
 import { readFileContent } from './helper/utils';
 import * as fs from 'fs';
 
-describe('test basic', () => {
+describe.skip('test basic', () => {
   const dir = path.join(__dirname, './fixture/basic');
 
   beforeAll(() => {

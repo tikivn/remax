@@ -3,9 +3,9 @@ import { NodePath } from '@babel/traverse';
 import { ConfigAPI } from '@babel/core';
 import * as t from '@babel/types';
 import { kebabCase } from 'lodash';
-import type { HostComponent, Platform } from '@tiki.vn/remax-types';
-import Store from '@tiki.vn/remax-build-store';
-import { slash } from '@tiki.vn/remax-shared';
+import type { HostComponent, Platform } from '@tiki-miniapp/remax-types';
+import Store from '@tiki-miniapp/remax-build-store';
+import { slash } from '@tiki-miniapp/remax-shared';
 
 interface Options {
   target: Platform;

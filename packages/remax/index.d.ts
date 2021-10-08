@@ -7,4 +7,4 @@ export {
   useNativeEffect,
   // eslint-disable-next-line
   unstable_batchedUpdates,
-} from '@tiki.vn/remax-runtime';
+} from '@tiki-miniapp/remax-runtime';

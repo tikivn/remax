@@ -1,7 +1,7 @@
 import { Compiler, compilation } from 'webpack';
 import * as path from 'path';
-import { slash } from '@tiki.vn/remax-shared';
-import Store from '@tiki.vn/remax-build-store';
+import { slash } from '@tiki-miniapp/remax-shared';
+import Store from '@tiki-miniapp/remax-build-store';
 import getModules from '../../utils/modules';
 import { OriginalSource } from 'webpack-sources';
 import Builder from '../../Builder';

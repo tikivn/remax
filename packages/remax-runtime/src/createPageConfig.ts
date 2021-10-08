@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createPageWrapper, RuntimeOptions, Lifecycle, callbackName } from '@tiki.vn/remax-framework-shared';
+import { createPageWrapper, RuntimeOptions, Lifecycle, callbackName } from '@tiki-miniapp/remax-framework-shared';
 import stopPullDownRefresh from './stopPullDownRefresh';
 import Container from './Container';
 import { createPortal } from './ReactPortal';

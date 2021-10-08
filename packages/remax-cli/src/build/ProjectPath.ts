@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as resolve from 'resolve';
-import { slash } from '@tiki.vn/remax-shared';
+import { slash } from '@tiki-miniapp/remax-shared';
 import { replaceExtension } from './utils/paths';
 import Builder from './Builder';
 import { targetExtensions } from '../extensions';

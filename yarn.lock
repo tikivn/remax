@@ -17669,7 +17669,7 @@ remax-stats@^0.1.1:
     git-url-parse "^11.1.2"
     is-git-repository "^1.1.1"
 
-remax@*, remax@2.15.6:
+remax@2.15.6:
   version "2.15.6"
   resolved "https://registry.yarnpkg.com/remax/-/remax-2.15.6.tgz#f4159dbe0c408c5f4389472cc0bcb50dcc5a3fde"
   integrity sha512-SAhQrhdeMPOdHiAh3CZS/o1tK+wzsJVCCx+fHbluXbIDsCULjVgdBIUTCZONEw+zF8SKJeuBgMOwirWvb8B6oQ==

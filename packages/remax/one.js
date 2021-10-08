@@ -1,1 +1,1 @@
-export * from '@tiki.vn/remax-one';
+export * from '@tiki-miniapp/remax-one';

@@ -1,5 +1,5 @@
 import notifier from 'node-notifier';
-import type { LogLevel } from '@tiki.vn/remax-types';
+import type { LogLevel } from '@tiki-miniapp/remax-types';
 
 const COLORS = {
   red: '\x1b[31m',

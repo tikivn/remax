@@ -1,11 +1,11 @@
 import * as t from '@babel/types';
-import type { Plugin, Meta, HostComponent, Platform, Options } from '@tiki.vn/remax-types';
-import { slash } from '@tiki.vn/remax-shared';
+import type { Plugin, Meta, HostComponent, Platform, Options } from '@tiki-miniapp/remax-types';
+import { slash } from '@tiki-miniapp/remax-shared';
 import { merge } from 'lodash';
 import Config from 'webpack-chain';
 import { RuleConfig } from './build/webpack/config/css';
 import yargs from 'yargs';
-import Store from '@tiki.vn/remax-build-store';
+import Store from '@tiki-miniapp/remax-build-store';
 import { builtinPlugins } from './builtinPlugins';
 
 export default class API {
@@ -156,7 +156,7 @@ export default class API {
 
   public registerAdapterPlugins(targetName: Platform) {
     this.adapter.target = targetName;
-    this.adapter.packageName = '@tiki.vn/remax-' + targetName;
+    this.adapter.packageName = '@tiki-miniapp/remax-' + targetName;
 
     const packagePath = this.adapter.packageName + '/node';
 

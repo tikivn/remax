@@ -8,7 +8,7 @@
   "dependencies": {
     "mini-antui": "^0.4.34",
     "react": "^16.8.6",
-    "remax": "*"
+    "@tiki-miniapp/remax": "*"
   },
   "workspaces": {
     "nohoist": [

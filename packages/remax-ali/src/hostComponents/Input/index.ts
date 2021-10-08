@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createHostComponent } from '@tiki.vn/remax-runtime';
+import { createHostComponent } from '@tiki-miniapp/remax-runtime';
 
 export interface InputProps {
   readonly dataset?: DOMStringMap;

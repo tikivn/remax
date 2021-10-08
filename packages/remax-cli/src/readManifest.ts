@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import path from 'path';
-import type { Platform } from '@tiki.vn/remax-types';
+import type { Platform } from '@tiki-miniapp/remax-types';
 
 function readTypescriptManifest(path: string, target: Platform) {
   require('@babel/register')({

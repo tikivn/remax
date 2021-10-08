@@ -1,6 +1,6 @@
 import * as path from 'path';
-import { slash } from '@tiki.vn/remax-shared';
-import type { Options } from '@tiki.vn/remax-types';
+import { slash } from '@tiki-miniapp/remax-shared';
+import type { Options } from '@tiki-miniapp/remax-types';
 import crypto from 'crypto';
 
 const hash = (name: string) => crypto.createHash('md5').update(name).digest('hex');

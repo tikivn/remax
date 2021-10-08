@@ -7,16 +7,16 @@ import CopyPlugin from 'copy-webpack-plugin';
 import VirtualModulesPlugin from 'webpack-virtual-modules';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import WebpackBar from 'webpackbar';
-import type { Options } from '@tiki.vn/remax-types';
-import { slash } from '@tiki.vn/remax-shared';
+import type { Options } from '@tiki-miniapp/remax-types';
+import { slash } from '@tiki-miniapp/remax-shared';
 import ejs from 'ejs';
 import { moduleMatcher, targetExtensions } from '../../extensions';
-import hostComponent from 'babel-plugin-remax-host-component';
-import * as TurboRender from 'babel-plugin-remax-turbo-render';
-import * as Lifecycle from 'babel-plugin-remax-lifecycle';
+import hostComponent from '@tiki-miniapp/babel-plugin-remax-host-component';
+import * as TurboRender from '@tiki-miniapp/babel-plugin-remax-turbo-render';
+import * as Lifecycle from '@tiki-miniapp/babel-plugin-remax-lifecycle';
 import moduleResolver from 'babel-plugin-module-resolver';
-import fixRegeneratorRuntime from 'babel-plugin-remax-regenerator-runtime';
-import Store from '@tiki.vn/remax-build-store';
+import fixRegeneratorRuntime from '@tiki-miniapp/babel-plugin-remax-regenerator-runtime';
+import Store from '@tiki-miniapp/remax-build-store';
 import * as RemaxPlugins from './plugins';
 import API from '../../API';
 import { cssConfig, addCSSRule, RuleConfig } from './config/css';
@@ -182,7 +182,7 @@ export default function webpackConfig(builder: Builder): webpack.Configuration {
     'utf-8'
   );
   const runtimeOptionsPath = slash('node_modules/@remax/apply-runtime-options.js');
-  config.entry(appEntry!.name).prepend('@tiki.vn/remax-apply-runtime-options');
+  config.entry(appEntry!.name).prepend('@remax/apply-runtime-options');
 
   const runtimeOptions = {
     pxToRpx: builder.options.pxToRpx,
