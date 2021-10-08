@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.19](https://github.com/remaxjs/remax/compare/v2.15.18...v2.15.19) (2021-10-08)
+
+### Bug Fixes
+
+- fixes missing remax/one ([94f3eaf](https://github.com/remaxjs/remax/commit/94f3eafe176a995c05202b8db5e585fd89a1b49f))
+
 ## [2.15.18](https://github.com/remaxjs/remax/compare/v2.15.17...v2.15.18) (2021-10-08)
 
 **Note:** Version bump only for package @tiki-miniapp/remax-cli
