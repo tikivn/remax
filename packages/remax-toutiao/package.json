@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-toutiao",
-  "version": "2.15.16",
+  "version": "2.15.17",
   "description": "Remax for Toutiao",
   "main": "./cjs/index.js",
   "esnext": "./esm/index.js",
@@ -16,7 +16,7 @@
   "repository": "git+https://github.com/remaxjs/remax.git",
   "license": "MIT",
   "devDependencies": {
-    "@tiki-miniapp/remax-types": "2.15.16",
+    "@tiki-miniapp/remax-types": "2.15.17",
     "@types/react": "^16.9.33",
     "@types/react-test-renderer": "^16.9.1",
     "react": "^16.12.0",
@@ -26,7 +26,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tiki-miniapp/remax-shared": "2.15.16"
+    "@tiki-miniapp/remax-shared": "2.15.17"
   },
   "gitHead": "9bd83f9374d5c64cb144265b15de5eefb42abe51"
 }
