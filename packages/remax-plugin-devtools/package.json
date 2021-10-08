@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-plugin-devtools",
-  "version": "2.15.7",
+  "version": "2.15.8",
   "description": "Inject React Devtools to Remax",
   "keywords": [
     "react"
@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "@remax/react-devtools-core": "^4.7.1",
-    "@tiki-miniapp/remax-shared": "2.15.7",
+    "@tiki-miniapp/remax-shared": "2.15.8",
     "webpack-inject-plugin": "^1.5.4"
-  }
+  },
+  "gitHead": "ebcd5b81b6a55c533178c2c3cf5732853b1751c9"
 }

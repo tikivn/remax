@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/babel-preset-remax",
-  "version": "2.15.7",
+  "version": "2.15.8",
   "description": "remax babel preset",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -42,5 +42,5 @@
   "peerDependencies": {
     "@babel/core": ">=7.0.0"
   },
-  "gitHead": "421a0c2b5a64c6f3210f2f056bf61406d6736f28"
+  "gitHead": "ebcd5b81b6a55c533178c2c3cf5732853b1751c9"
 }
