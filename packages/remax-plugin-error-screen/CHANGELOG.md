@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.21](https://github.com/remaxjs/remax/compare/v2.15.20...v2.15.21) (2021-10-08)
+
+**Note:** Version bump only for package @tiki-miniapp/remax-plugin-error-screen
+
 ## [2.15.20](https://github.com/remaxjs/remax/compare/v2.15.19...v2.15.20) (2021-10-08)
 
 **Note:** Version bump only for package @tiki-miniapp/remax-plugin-error-screen

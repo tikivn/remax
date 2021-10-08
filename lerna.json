@@ -7,7 +7,7 @@
       "private": false
     }
   },
-  "version": "2.15.20",
+  "version": "2.15.21",
   "npmClient": "yarn",
   "useWorkspaces": true
 }
