@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-framework-shared",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "description": "使用真正的 React 构建跨平台小程序",
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "homepage": "https://remaxjs.org",
@@ -24,7 +24,7 @@
     "react-is": "^16.13.1"
   },
   "devDependencies": {
-    "@tiki-miniapp/remax-types": "2.15.8",
+    "@tiki-miniapp/remax-types": "2.15.9",
     "@types/react": "^16.9.33",
     "@types/react-is": "^16.7.1",
     "react-test-renderer": "^16.9.0"
@@ -32,5 +32,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ebcd5b81b6a55c533178c2c3cf5732853b1751c9"
+  "gitHead": "627c24a6e6d07bbbb7b9ded8942cd02e0a2c67fe"
 }

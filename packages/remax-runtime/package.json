@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-runtime",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "description": "Remax 是一个全新的基于 React 的小程序开发框架",
   "main": "./cjs/index.js",
   "esnext": "./esm/index.js",
@@ -33,16 +33,16 @@
     "@types/react": "^16.9.33"
   },
   "dependencies": {
-    "@tiki-miniapp/remax-framework-shared": "2.15.8",
-    "@tiki-miniapp/remax-shared": "2.15.8",
-    "@tiki-miniapp/remax-web": "2.15.8",
+    "@tiki-miniapp/remax-framework-shared": "2.15.9",
+    "@tiki-miniapp/remax-shared": "2.15.9",
+    "@tiki-miniapp/remax-web": "2.15.9",
     "qs": "^6.9.3",
     "react-is": "^16.3.1",
     "react-reconciler": "0.26.2",
     "scheduler": "0.19.1"
   },
   "devDependencies": {
-    "@tiki-miniapp/remax-types": "2.15.8",
+    "@tiki-miniapp/remax-types": "2.15.9",
     "@types/lodash.merge": "^4.6.6",
     "@types/node": "^14.0.1",
     "@types/react": "^16.9.33",
@@ -52,5 +52,5 @@
     "react": "^16.8.6",
     "react-test-renderer": "^16.9.0"
   },
-  "gitHead": "ebcd5b81b6a55c533178c2c3cf5732853b1751c9"
+  "gitHead": "627c24a6e6d07bbbb7b9ded8942cd02e0a2c67fe"
 }

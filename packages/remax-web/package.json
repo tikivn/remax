@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-web",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "description": "Shim of web for remax",
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "homepage": "https://github.com/remaxjs/remax#readme",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@loadable/component": "^5.12.0",
     "@remax/react-router-cache-route": "^1.8.4",
-    "@tiki-miniapp/remax-framework-shared": "2.15.8",
+    "@tiki-miniapp/remax-framework-shared": "2.15.9",
     "react-is": "^16.3.1",
     "react-router-dom": "^5.2.0",
     "rmc-pull-to-refresh": "^1.0.12",
@@ -44,5 +44,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ebcd5b81b6a55c533178c2c3cf5732853b1751c9"
+  "gitHead": "627c24a6e6d07bbbb7b9ded8942cd02e0a2c67fe"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "description": "Remax 是一个全新的基于 React 的小程序开发框架",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
@@ -30,18 +30,18 @@
     "prepack": "yarn build"
   },
   "dependencies": {
-    "@tiki-miniapp/remax-ali": "2.15.8",
-    "@tiki-miniapp/remax-cli": "2.15.8",
-    "@tiki-miniapp/remax-macro": "2.15.8",
-    "@tiki-miniapp/remax-one": "2.15.8",
-    "@tiki-miniapp/remax-runtime": "2.15.8",
-    "@tiki-miniapp/remax-tiniapp": "2.15.8",
-    "@tiki-miniapp/remax-toutiao": "2.15.8",
-    "@tiki-miniapp/remax-types": "2.15.8",
-    "@tiki-miniapp/remax-web": "2.15.8",
-    "@tiki-miniapp/remax-wechat": "2.15.8",
+    "@tiki-miniapp/remax-ali": "2.15.9",
+    "@tiki-miniapp/remax-cli": "2.15.9",
+    "@tiki-miniapp/remax-macro": "2.15.9",
+    "@tiki-miniapp/remax-one": "2.15.9",
+    "@tiki-miniapp/remax-runtime": "2.15.9",
+    "@tiki-miniapp/remax-tiniapp": "2.15.9",
+    "@tiki-miniapp/remax-toutiao": "2.15.9",
+    "@tiki-miniapp/remax-types": "2.15.9",
+    "@tiki-miniapp/remax-web": "2.15.9",
+    "@tiki-miniapp/remax-wechat": "2.15.9",
     "mini-types": "^0.1.1",
     "miniprogram-api-typings": "^3.4.3"
   },
-  "gitHead": "ebcd5b81b6a55c533178c2c3cf5732853b1751c9"
+  "gitHead": "627c24a6e6d07bbbb7b9ded8942cd02e0a2c67fe"
 }
