@@ -3,7 +3,7 @@ import ejs from 'ejs';
 import type { Options, Meta, EntryInfo } from '@tiki-miniapp/remax-types';
 import { slash } from '@tiki-miniapp/remax-shared';
 import Store, { ExtractedTemplate } from '@tiki-miniapp/remax-build-store';
-import * as TurboRender from 'babel-plugin-remax-turbo-render';
+import * as TurboRender from '@tiki-miniapp/babel-plugin-remax-turbo-render';
 import { sortBy } from 'lodash';
 import { createRenderOptions } from './createTemplate';
 import API from '../../../../API';
