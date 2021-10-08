@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.15](https://github.com/remaxjs/remax/compare/v2.15.14...v2.15.15) (2021-10-08)
+
+### Bug Fixes
+
+- fixes failed tests ([c424543](https://github.com/remaxjs/remax/commit/c424543f32c198fd288e190d8262ead42f410f4f))
+
 ## [2.15.14](https://github.com/remaxjs/remax/compare/v2.15.13...v2.15.14) (2021-10-08)
 
 ### Bug Fixes
