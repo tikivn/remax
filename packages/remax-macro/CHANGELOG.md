@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.10](https://github.com/tikivn/remax/compare/v2.15.9...v2.15.10) (2021-10-08)
+
+**Note:** Version bump only for package @tiki-miniapp/remax-macro
+
 ## [2.15.9](https://github.com/tikivn/remax/compare/v2.15.8...v2.15.9) (2021-10-08)
 
 **Note:** Version bump only for package @tiki-miniapp/remax-macro

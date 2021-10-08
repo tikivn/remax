@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-types",
-  "version": "2.15.9",
+  "version": "2.15.10",
   "description": "Remax Types",
   "author": "Caihuanyu <eterlf41@gmail.com>",
   "license": "MIT",
@@ -21,5 +21,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "627c24a6e6d07bbbb7b9ded8942cd02e0a2c67fe"
+  "gitHead": "370b7ea8054c7ba992b0be0dab77ff7340e3552f"
 }

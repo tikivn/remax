@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-one",
-  "version": "2.15.9",
+  "version": "2.15.10",
   "description": "Remax 小程序多端方案",
   "main": "./cjs/index.js",
   "esnext": "./esm/index.js",
@@ -20,7 +20,7 @@
     "@types/react": "^16.9.33"
   },
   "devDependencies": {
-    "@tiki-miniapp/remax-types": "2.15.9",
+    "@tiki-miniapp/remax-types": "2.15.10",
     "@types/react": "^16.9.33",
     "@types/react-dom": "^17.0.5",
     "@types/react-test-renderer": "^16.9.1",
@@ -29,13 +29,13 @@
     "react-test-renderer": "^16.12.0"
   },
   "dependencies": {
-    "@tiki-miniapp/remax-ali": "2.15.9",
-    "@tiki-miniapp/remax-framework-shared": "2.15.9",
-    "@tiki-miniapp/remax-runtime": "2.15.9",
-    "@tiki-miniapp/remax-tiniapp": "2.15.9",
-    "@tiki-miniapp/remax-toutiao": "2.15.9",
-    "@tiki-miniapp/remax-web": "2.15.9",
-    "@tiki-miniapp/remax-wechat": "2.15.9",
+    "@tiki-miniapp/remax-ali": "2.15.10",
+    "@tiki-miniapp/remax-framework-shared": "2.15.10",
+    "@tiki-miniapp/remax-runtime": "2.15.10",
+    "@tiki-miniapp/remax-tiniapp": "2.15.10",
+    "@tiki-miniapp/remax-toutiao": "2.15.10",
+    "@tiki-miniapp/remax-web": "2.15.10",
+    "@tiki-miniapp/remax-wechat": "2.15.10",
     "clsx": "^1.1.0",
     "memoize-one": "^5.1.1",
     "react-autosize-textarea": "^7.0.0"
@@ -43,5 +43,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "627c24a6e6d07bbbb7b9ded8942cd02e0a2c67fe"
+  "gitHead": "370b7ea8054c7ba992b0be0dab77ff7340e3552f"
 }
