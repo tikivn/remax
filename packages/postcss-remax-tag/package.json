@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/postcss-tag",
-  "version": "2.15.12",
+  "version": "2.15.13",
   "main": "index.js",
   "repository": "git@github.com:remaxjs/remax.git",
   "author": "Caihuanyu <eterlf41@gmail.com>",
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "fdace7493b163b5f4130604bb6bfef2e4ea585c9"
+  "gitHead": "9bd83f9374d5c64cb144265b15de5eefb42abe51"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/babel-plugin-remax-turbo-render",
-  "version": "2.15.12",
+  "version": "2.15.13",
   "description": "使用真正的 React 构建跨平台小程序",
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "homepage": "https://remaxjs.org",
@@ -38,5 +38,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "fdace7493b163b5f4130604bb6bfef2e4ea585c9"
+  "gitHead": "9bd83f9374d5c64cb144265b15de5eefb42abe51"
 }
