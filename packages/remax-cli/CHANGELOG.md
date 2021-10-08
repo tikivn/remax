@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.14](https://github.com/remaxjs/remax/compare/v2.15.13...v2.15.14) (2021-10-08)
+
+### Bug Fixes
+
+- fixes missing babel-plugin-remax ([70bcd83](https://github.com/remaxjs/remax/commit/70bcd83e9381b43f1088ad70a74547ab46a6aa5f))
+
 ## [2.15.13](https://github.com/remaxjs/remax/compare/v2.15.12...v2.15.13) (2021-10-08)
 
 **Note:** Version bump only for package @tiki-miniapp/remax-cli

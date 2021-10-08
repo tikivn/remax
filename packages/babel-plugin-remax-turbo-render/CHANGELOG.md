@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.14](https://github.com/remaxjs/remax/compare/v2.15.13...v2.15.14) (2021-10-08)
+
+**Note:** Version bump only for package @tiki-miniapp/babel-plugin-remax-turbo-render
+
 ## [2.15.13](https://github.com/remaxjs/remax/compare/v2.15.12...v2.15.13) (2021-10-08)
 
 **Note:** Version bump only for package @tiki-miniapp/babel-plugin-remax-turbo-render
