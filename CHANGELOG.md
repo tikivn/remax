@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.11](https://github.com/tikivn/remax/compare/v2.15.10...v2.15.11) (2021-10-08)
+
+**Note:** Version bump only for package root
+
 ## [2.15.10](https://github.com/tikivn/remax/compare/v2.15.9...v2.15.10) (2021-10-08)
 
 **Note:** Version bump only for package root

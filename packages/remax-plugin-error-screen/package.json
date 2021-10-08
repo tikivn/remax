@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-plugin-error-screen",
-  "version": "2.15.10",
+  "version": "2.15.11",
   "description": "使用真正的 React 构建跨平台小程序",
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "homepage": "https://remaxjs.org",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@remax/redbox-react": "^1.0.0",
-    "@tiki-miniapp/remax-shared": "2.15.10",
+    "@tiki-miniapp/remax-shared": "2.15.11",
     "webpack-virtual-modules": "^0.3.1"
   },
   "devDependencies": {
@@ -34,5 +34,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "370b7ea8054c7ba992b0be0dab77ff7340e3552f"
+  "gitHead": "142d44bad56b16e93e7d619f746085a079f8e1be"
 }

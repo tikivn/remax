@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-ali",
-  "version": "2.15.10",
+  "version": "2.15.11",
   "description": "Remax for Ali",
   "main": "./cjs/index.js",
   "esnext": "./esm/index.js",
@@ -16,11 +16,11 @@
   "repository": "git+https://github.com/remaxjs/remax.git",
   "license": "MIT",
   "dependencies": {
-    "@tiki-miniapp/remax-shared": "2.15.10",
+    "@tiki-miniapp/remax-shared": "2.15.11",
     "mini-types": "^0.1.1"
   },
   "devDependencies": {
-    "@tiki-miniapp/remax-types": "2.15.10",
+    "@tiki-miniapp/remax-types": "2.15.11",
     "@types/react": "^16.9.33",
     "@types/react-test-renderer": "^16.9.1",
     "react": "^16.12.0",
@@ -29,5 +29,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "370b7ea8054c7ba992b0be0dab77ff7340e3552f"
+  "gitHead": "142d44bad56b16e93e7d619f746085a079f8e1be"
 }

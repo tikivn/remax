@@ -1,6 +1,6 @@
 {
   "name": "@tiki-miniapp/remax-shared",
-  "version": "2.15.10",
+  "version": "2.15.11",
   "description": "Remax Shared",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -25,7 +25,7 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
-    "@tiki-miniapp/remax-types": "2.15.10",
+    "@tiki-miniapp/remax-types": "2.15.11",
     "@types/htmlparser2": "^3.10.1",
     "@types/react": "^16.9.35",
     "@types/react-test-renderer": "^16.9.2",
@@ -37,5 +37,5 @@
     "@babel/traverse": "^7.11.0",
     "htmlparser2": "^4.1.0"
   },
-  "gitHead": "370b7ea8054c7ba992b0be0dab77ff7340e3552f"
+  "gitHead": "142d44bad56b16e93e7d619f746085a079f8e1be"
 }
