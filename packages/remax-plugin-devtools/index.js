@@ -26,7 +26,7 @@ module.exports = () => ({
     ]);
 
     config.plugin('plugin-devtools-webpack-inject-plugin').use(InjectPlugin, [
-      () => `import '${slash(require.resolve('@tiki-miniapp/remax-react-devtools-core'))}';`,
+      () => `import '${slash(require.resolve('@remax/react-devtools-core'))}';`,
       {
         entryName: 'app',
         entryOrder: ENTRY_ORDER.First,
